@@ -3,6 +3,13 @@
 <title>Caesar cipher</title>
 </head>
 <body>
-	
+	<form method="post" action="/">
+	    <label>Message</label><input type="text" name="string" />
+	    <label>Shift</label><input type="number" name="shift" />
+	    <input type="submit" name ="decision" value ="Encrypt" />
+	    <input type="submit" name ="decision" value ="Decrypt" />
+	</form>
+	<p><%= "Your message is #{message}" %></p>
+
 </body>
 </html>
